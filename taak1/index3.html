@@ -88,9 +88,10 @@
 
         g.append("g")
          .call(d3.axisLeft(yScale).tickFormat(function(d){
+            console.log(d);
              return  d;
          })
-         .ticks(30))
+         .ticks(20))
          .append("text")
          .attr("transform", "rotate(-90)")
          .attr("y", 6)
