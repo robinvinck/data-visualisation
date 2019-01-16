@@ -1,0 +1,697 @@
+scale atten_large 13 13
+scale atten_large 2 2
+scale atten_large 4 4
+scale atten_large 3 3
+scale atten_large 7 7
+scale atten_large 2 2
+scale atten_large 5 5
+scale atten_large 3 3
+scale atten_large 5 5
+scale atten_large 0 0
+scale atten_large 4 4
+scale atten_large 0 0
+scale atten_large 5 5
+scale atten_large 0 0
+scale atten_large 5 5
+scale atten_large 3 3
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 3 3
+scale atten_large 0 0
+scale atten_large 2 2
+scale atten_large 3 3
+scale atten_large 1 1
+scale atten_large 1 1
+scale atten_large 2 2
+scale atten_large 2 2
+scale atten_large 5 5
+scale atten_large 1 1
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 1 1
+scale atten_large 2 2
+scale atten_large 4 4
+scale atten_large 1 1
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 2 2
+scale atten_large 2 2
+scale atten_large 0 0
+scale atten_large 3 3
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 3 3
+scale atten_large 1 1
+scale atten_large 3 3
+scale atten_large 3 3
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 0 0
+scale atten_large 2 2
+scale atten_large 3 3
+scale atten_large 1 1
+scale atten_large 1 1
+scale atten_large 0 0
+scale atten_large 1 1
+scale atten_large 1 1
+hsvpercentile 0 0 1 1
+colorpercentile percentile00000 = 255,0,0
+hsvpercentile 5 15 1 1
+colorpercentile percentile00005 = 255,64,0
+hsvpercentile 10 30 1 1
+colorpercentile percentile00010 = 255,128,0
+hsvpercentile 15 45 1 1
+colorpercentile percentile00015 = 255,191,0
+hsvpercentile 20 60 1 1
+colorpercentile percentile00020 = 255,255,0
+hsvpercentile 25 75 1 1
+colorpercentile percentile00025 = 191,255,0
+hsvpercentile 30 90 1 1
+colorpercentile percentile00030 = 128,255,0
+hsvpercentile 35 105 1 1
+colorpercentile percentile00035 = 64,255,0
+hsvpercentile 40 120 1 1
+colorpercentile percentile00040 = 0,255,0
+hsvpercentile 45 135 1 1
+colorpercentile percentile00045 = 0,255,64
+hsvpercentile 50 150 1 1
+colorpercentile percentile00050 = 0,255,128
+hsvpercentile 55 165 1 1
+colorpercentile percentile00055 = 0,255,191
+hsvpercentile 60 180 1 1
+colorpercentile percentile00060 = 0,255,255
+hsvpercentile 65 195 1 1
+colorpercentile percentile00065 = 0,191,255
+hsvpercentile 70 210 1 1
+colorpercentile percentile00070 = 0,128,255
+hsvpercentile 75 225 1 1
+colorpercentile percentile00075 = 0,64,255
+hsvpercentile 80 240 1 1
+colorpercentile percentile00080 = 0,0,255
+hsvpercentile 85 255 1 1
+colorpercentile percentile00085 = 64,0,255
+hsvpercentile 90 270 1 1
+colorpercentile percentile00090 = 128,0,255
+hsvpercentile 95 285 1 1
+colorpercentile percentile00095 = 191,0,255
+hsvpercentile 100 300 1 1
+colorpercentile percentile00100 = 255,0,255
+table report row 0 Real 
+table report row 1 Milan 
+table report row 2 Barca 
+table report row 3 Liverp 
+table report row 4 Juve 
+table report row 5 Bayern 
+table report row 6 Ajax 
+table report row 7 Atl. 
+table report row 8 Inter 
+table report row 9 United 
+table report col 0 UCL 
+table report col 1 UEL 
+table report col 2 CWC 
+table report col 3 UIC 
+table report col 4 USC 
+table report col 5 IC 
+table report cell 0 Real 0 UCL raw 13 cleaned/remapped 13* scaled 13 missing? 0 hidden? 0
+table report cell 0 Real 1 UEL raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 0 Real 2 CWC raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 Real 3 UIC raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 0 Real 4 USC raw 4 cleaned/remapped 4* scaled 4 missing? 0 hidden? 0
+table report cell 0 Real 5 IC raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 1 Milan 0 UCL raw 7 cleaned/remapped 7* scaled 7 missing? 0 hidden? 0
+table report cell 1 Milan 1 UEL raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 Milan 2 CWC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 1 Milan 3 UIC raw - cleaned/remapped -* scaled  missing? 1 hidden? 0
+table report cell 1 Milan 4 USC raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 1 Milan 5 IC raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 2 Barca 0 UCL raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 2 Barca 1 UEL raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 2 Barca 2 CWC raw 4 cleaned/remapped 4* scaled 4 missing? 0 hidden? 0
+table report cell 2 Barca 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 2 Barca 4 USC raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 2 Barca 5 IC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 3 Liverp 0 UCL raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 3 Liverp 1 UEL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 3 Liverp 2 CWC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 3 Liverp 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 3 Liverp 4 USC raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 3 Liverp 5 IC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 4 Juve 0 UCL raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 4 Juve 1 UEL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 4 Juve 2 CWC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 4 Juve 3 UIC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 4 Juve 4 USC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 4 Juve 5 IC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 5 Bayern 0 UCL raw 5 cleaned/remapped 5* scaled 5 missing? 0 hidden? 0
+table report cell 5 Bayern 1 UEL raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 5 Bayern 2 CWC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 5 Bayern 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 5 Bayern 4 USC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 5 Bayern 5 IC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 6 Ajax 0 UCL raw 4 cleaned/remapped 4* scaled 4 missing? 0 hidden? 0
+table report cell 6 Ajax 1 UEL raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 6 Ajax 2 CWC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 6 Ajax 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 6 Ajax 4 USC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 6 Ajax 5 IC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 7 Atl. 0 UCL raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 Atl. 1 UEL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 7 Atl. 2 CWC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 7 Atl. 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 7 Atl. 4 USC raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 7 Atl. 5 IC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 8 Inter 0 UCL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 8 Inter 1 UEL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 8 Inter 2 CWC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 8 Inter 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 8 Inter 4 USC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 8 Inter 5 IC raw 2 cleaned/remapped 2* scaled 2 missing? 0 hidden? 0
+table report cell 9 United 0 UCL raw 3 cleaned/remapped 3* scaled 3 missing? 0 hidden? 0
+table report cell 9 United 1 UEL raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 9 United 2 CWC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 9 United 3 UIC raw 0 cleaned/remapped 0* scaled 0 missing? 0 hidden? 0
+table report cell 9 United 4 USC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+table report cell 9 United 5 IC raw 1 cleaned/remapped 1* scaled 1 missing? 0 hidden? 0
+row/col/label stat row Ajax sum 10 n 6 min 0 max 4 avg 1.66666666666667
+row/col/label stat row Atl. sum 8 n 6 min 0 max 3 avg 1.33333333333333
+row/col/label stat row Barca sum 14 n 6 min 0 max 5 avg 2.33333333333333
+row/col/label stat row Bayern sum 10 n 6 min 0 max 5 avg 1.66666666666667
+row/col/label stat row Inter sum 8 n 6 min 0 max 3 avg 1.33333333333333
+row/col/label stat row Juve sum 11 n 6 min 1 max 3 avg 1.83333333333333
+row/col/label stat row Liverp sum 11 n 6 min 0 max 5 avg 1.83333333333333
+row/col/label stat row Milan sum 17 n 4 min 2 max 7 avg 4.25
+row/col/label stat row Real sum 22 n 4 min 2 max 13 avg 5.5
+row/col/label stat row United sum 7 n 6 min 0 max 3 avg 1.16666666666667
+row/col/label stat col CWC sum 11 n 9 min 0 max 4 avg 1.22222222222222
+row/col/label stat col IC sum 16 n 10 min 0 max 3 avg 1.6
+row/col/label stat col UCL sum 47 n 10 min 0 max 13 avg 4.7
+row/col/label stat col UEL sum 17 n 9 min 0 max 3 avg 1.88888888888889
+row/col/label stat col UIC sum 1 n 8 min 0 max 1 avg 0.125
+row/col/label stat col USC sum 26 n 10 min 0 max 5 avg 2.6
+row/col/label stat label Ajax sum 10 n 6 min 0 max 4 avg 1.66666666666667
+row/col/label stat label Atl. sum 8 n 6 min 0 max 3 avg 1.33333333333333
+row/col/label stat label Barca sum 14 n 6 min 0 max 5 avg 2.33333333333333
+row/col/label stat label Bayern sum 10 n 6 min 0 max 5 avg 1.66666666666667
+row/col/label stat label CWC sum 11 n 9 min 0 max 4 avg 1.22222222222222
+row/col/label stat label IC sum 16 n 10 min 0 max 3 avg 1.6
+row/col/label stat label Inter sum 8 n 6 min 0 max 3 avg 1.33333333333333
+row/col/label stat label Juve sum 11 n 6 min 1 max 3 avg 1.83333333333333
+row/col/label stat label Liverp sum 11 n 6 min 0 max 5 avg 1.83333333333333
+row/col/label stat label Milan sum 17 n 4 min 2 max 7 avg 4.25
+row/col/label stat label Real sum 22 n 4 min 2 max 13 avg 5.5
+row/col/label stat label UCL sum 47 n 10 min 0 max 13 avg 4.7
+row/col/label stat label UEL sum 17 n 9 min 0 max 3 avg 1.88888888888889
+row/col/label stat label UIC sum 1 n 8 min 0 max 1 avg 0.125
+row/col/label stat label USC sum 26 n 10 min 0 max 5 avg 2.6
+row/col/label stat label United sum 7 n 6 min 0 max 3 avg 1.16666666666667
+labels ordered Real Milan Barca Liverp Juve Bayern Ajax Atl. Inter United UCL USC UEL IC CWC UIC
+label2seg 0 Real Real
+label2seg 1 Milan Milan
+label2seg 2 Barca Barca
+label2seg 3 Liverp Liverp
+label2seg 4 Juve Juve
+label2seg 5 Bayern Bayern
+label2seg 6 Ajax Ajax
+label2seg 7 Atl. Atl.
+label2seg 8 Inter Inter
+label2seg 9 United United
+label2seg 10 UCL UCL
+label2seg 11 USC USC
+label2seg 12 UEL UEL
+label2seg 13 IC IC
+label2seg 14 CWC CWC
+label2seg 15 UIC UIC
+labels ordered Ajax Atl. Barca Bayern CWC IC Inter Juve Liverp Milan Real UCL UEL UIC USC United
+colordef colorbarca = 230,168,46
+colordef coloratl. = 230,107,46
+colordef coloruic = 107,46,230
+colordef coloruel = 46,46,230
+colordef colorliverp = 46,230,168
+colordef colorcwc = 168,230,46
+colordef colorinter = 46,230,46
+colordef colormilan = 46,230,230
+colordef colorajax = 230,46,46
+colordef colorunited = 230,46,230
+colordef coloric = 107,230,46
+colordef colorjuve = 46,230,107
+colordef colorucl = 46,107,230
+colordef colorusc = 168,46,230
+colordef colorreal = 46,168,230
+colordef colorbayern = 230,230,46
+highlight row Barca 0 5 fill_color=colorucl
+highlight row Barca 5 10 fill_color=colorusc
+highlight row Barca 10 14 fill_color=colorcwc
+highlight row Barca 14 14 fill_color=coloric
+highlight row Barca 14 14 fill_color=coloruic
+highlight row Barca 14 14 fill_color=coloruel
+highlight row Atl. 0 3 fill_color=coloruel
+highlight row Atl. 3 6 fill_color=colorusc
+highlight row Atl. 6 7 fill_color=coloric
+highlight row Atl. 7 8 fill_color=colorcwc
+highlight row Atl. 8 8 fill_color=coloruic
+highlight row Atl. 8 8 fill_color=colorucl
+highlight row Liverp 0 5 fill_color=colorucl
+highlight row Liverp 5 8 fill_color=coloruel
+highlight row Liverp 8 11 fill_color=colorusc
+highlight row Liverp 11 11 fill_color=coloric
+highlight row Liverp 11 11 fill_color=coloruic
+highlight row Liverp 11 11 fill_color=colorcwc
+highlight row Inter 0 3 fill_color=coloruel
+highlight row Inter 3 6 fill_color=colorucl
+highlight row Inter 6 8 fill_color=coloric
+highlight row Inter 8 8 fill_color=coloruic
+highlight row Inter 8 8 fill_color=colorcwc
+highlight row Inter 8 8 fill_color=colorusc
+highlight row Milan 0 7 fill_color=colorucl
+highlight row Milan 7 12 fill_color=colorusc
+highlight row Milan 12 15 fill_color=coloric
+highlight row Milan 15 17 fill_color=colorcwc
+highlight row Ajax 0 4 fill_color=colorucl
+highlight row Ajax 4 6 fill_color=coloric
+highlight row Ajax 6 8 fill_color=colorusc
+highlight row Ajax 8 9 fill_color=coloruel
+highlight row Ajax 9 10 fill_color=colorcwc
+highlight row Ajax 10 10 fill_color=coloruic
+highlight row United 0 3 fill_color=colorucl
+highlight row United 3 4 fill_color=coloric
+highlight row United 4 5 fill_color=coloruel
+highlight row United 5 6 fill_color=colorcwc
+highlight row United 6 7 fill_color=colorusc
+highlight row United 7 7 fill_color=coloruic
+highlight row Juve 0 3 fill_color=coloruel
+highlight row Juve 3 5 fill_color=coloric
+highlight row Juve 5 7 fill_color=colorucl
+highlight row Juve 7 9 fill_color=colorusc
+highlight row Juve 9 10 fill_color=coloruic
+highlight row Juve 10 11 fill_color=colorcwc
+highlight row Real 0 13 fill_color=colorucl
+highlight row Real 13 17 fill_color=colorusc
+highlight row Real 17 20 fill_color=coloric
+highlight row Real 20 22 fill_color=coloruel
+highlight row Bayern 0 5 fill_color=colorucl
+highlight row Bayern 5 7 fill_color=coloric
+highlight row Bayern 7 8 fill_color=coloruel
+highlight row Bayern 8 9 fill_color=colorcwc
+highlight row Bayern 9 10 fill_color=colorusc
+highlight row Bayern 10 10 fill_color=coloruic
+highlight col UEL 0 3 fill_color=coloratl.
+highlight col UEL 3 6 fill_color=colorliverp
+highlight col UEL 6 9 fill_color=colorjuve
+highlight col UEL 9 12 fill_color=colorinter
+highlight col UEL 12 14 fill_color=colorreal
+highlight col UEL 14 15 fill_color=colorajax
+highlight col UEL 15 16 fill_color=colorbayern
+highlight col UEL 16 17 fill_color=colorunited
+highlight col UEL 17 17 fill_color=colorbarca
+highlight col UIC 0 1 fill_color=colorjuve
+highlight col UIC 1 1 fill_color=coloratl.
+highlight col UIC 1 1 fill_color=colorbarca
+highlight col UIC 1 1 fill_color=colorliverp
+highlight col UIC 1 1 fill_color=colorinter
+highlight col UIC 1 1 fill_color=colorajax
+highlight col UIC 1 1 fill_color=colorbayern
+highlight col UIC 1 1 fill_color=colorunited
+highlight col CWC 0 4 fill_color=colorbarca
+highlight col CWC 4 6 fill_color=colormilan
+highlight col CWC 6 7 fill_color=coloratl.
+highlight col CWC 7 8 fill_color=colorjuve
+highlight col CWC 8 9 fill_color=colorajax
+highlight col CWC 9 10 fill_color=colorbayern
+highlight col CWC 10 11 fill_color=colorunited
+highlight col CWC 11 11 fill_color=colorliverp
+highlight col CWC 11 11 fill_color=colorinter
+highlight col IC 0 3 fill_color=colormilan
+highlight col IC 3 6 fill_color=colorreal
+highlight col IC 6 8 fill_color=colorinter
+highlight col IC 8 10 fill_color=colorajax
+highlight col IC 10 12 fill_color=colorjuve
+highlight col IC 12 14 fill_color=colorbayern
+highlight col IC 14 15 fill_color=coloratl.
+highlight col IC 15 16 fill_color=colorunited
+highlight col IC 16 16 fill_color=colorbarca
+highlight col IC 16 16 fill_color=colorliverp
+highlight col UCL 0 13 fill_color=colorreal
+highlight col UCL 13 20 fill_color=colormilan
+highlight col UCL 20 25 fill_color=colorbarca
+highlight col UCL 25 30 fill_color=colorliverp
+highlight col UCL 30 35 fill_color=colorbayern
+highlight col UCL 35 39 fill_color=colorajax
+highlight col UCL 39 42 fill_color=colorinter
+highlight col UCL 42 45 fill_color=colorunited
+highlight col UCL 45 47 fill_color=colorjuve
+highlight col UCL 47 47 fill_color=coloratl.
+highlight col USC 0 5 fill_color=colorbarca
+highlight col USC 5 10 fill_color=colormilan
+highlight col USC 10 14 fill_color=colorreal
+highlight col USC 14 17 fill_color=coloratl.
+highlight col USC 17 20 fill_color=colorliverp
+highlight col USC 20 22 fill_color=colorajax
+highlight col USC 22 24 fill_color=colorjuve
+highlight col USC 24 25 fill_color=colorunited
+highlight col USC 25 26 fill_color=colorbayern
+highlight col USC 26 26 fill_color=colorinter
+highlight all Real 0 13 fill_color=colorucl
+highlight all Real 13 17 fill_color=colorusc
+highlight all Real 17 20 fill_color=coloric
+highlight all Real 20 22 fill_color=coloruel
+highlight all Milan 0 7 fill_color=colorucl
+highlight all Milan 7 12 fill_color=colorusc
+highlight all Milan 12 15 fill_color=coloric
+highlight all Milan 15 17 fill_color=colorcwc
+highlight all Barca 0 5 fill_color=colorucl
+highlight all Barca 5 10 fill_color=colorusc
+highlight all Barca 10 14 fill_color=colorcwc
+highlight all Barca 14 14 fill_color=coloric
+highlight all Barca 14 14 fill_color=coloruic
+highlight all Barca 14 14 fill_color=coloruel
+highlight all Liverp 0 5 fill_color=colorucl
+highlight all Liverp 5 8 fill_color=coloruel
+highlight all Liverp 8 11 fill_color=colorusc
+highlight all Liverp 11 11 fill_color=coloric
+highlight all Liverp 11 11 fill_color=coloruic
+highlight all Liverp 11 11 fill_color=colorcwc
+highlight all Juve 0 3 fill_color=coloruel
+highlight all Juve 3 5 fill_color=coloric
+highlight all Juve 5 7 fill_color=colorucl
+highlight all Juve 7 9 fill_color=colorusc
+highlight all Juve 9 10 fill_color=coloruic
+highlight all Juve 10 11 fill_color=colorcwc
+highlight all Bayern 0 5 fill_color=colorucl
+highlight all Bayern 5 7 fill_color=coloric
+highlight all Bayern 7 8 fill_color=coloruel
+highlight all Bayern 8 9 fill_color=colorcwc
+highlight all Bayern 9 10 fill_color=colorusc
+highlight all Bayern 10 10 fill_color=coloruic
+highlight all Ajax 0 4 fill_color=colorucl
+highlight all Ajax 4 6 fill_color=coloric
+highlight all Ajax 6 8 fill_color=colorusc
+highlight all Ajax 8 9 fill_color=coloruel
+highlight all Ajax 9 10 fill_color=colorcwc
+highlight all Ajax 10 10 fill_color=coloruic
+highlight all Atl. 0 3 fill_color=coloruel
+highlight all Atl. 3 6 fill_color=colorusc
+highlight all Atl. 6 7 fill_color=coloric
+highlight all Atl. 7 8 fill_color=colorcwc
+highlight all Atl. 8 8 fill_color=coloruic
+highlight all Atl. 8 8 fill_color=colorucl
+highlight all Inter 0 3 fill_color=coloruel
+highlight all Inter 3 6 fill_color=colorucl
+highlight all Inter 6 8 fill_color=coloric
+highlight all Inter 8 8 fill_color=coloruic
+highlight all Inter 8 8 fill_color=colorcwc
+highlight all Inter 8 8 fill_color=colorusc
+highlight all United 0 3 fill_color=colorucl
+highlight all United 3 4 fill_color=coloric
+highlight all United 4 5 fill_color=coloruel
+highlight all United 5 6 fill_color=colorcwc
+highlight all United 6 7 fill_color=colorusc
+highlight all United 7 7 fill_color=coloruic
+highlight all UCL 0 13 fill_color=colorreal
+highlight all UCL 13 20 fill_color=colormilan
+highlight all UCL 20 25 fill_color=colorbarca
+highlight all UCL 25 30 fill_color=colorliverp
+highlight all UCL 30 35 fill_color=colorbayern
+highlight all UCL 35 39 fill_color=colorajax
+highlight all UCL 39 42 fill_color=colorinter
+highlight all UCL 42 45 fill_color=colorunited
+highlight all UCL 45 47 fill_color=colorjuve
+highlight all UCL 47 47 fill_color=coloratl.
+highlight all USC 0 5 fill_color=colorbarca
+highlight all USC 5 10 fill_color=colormilan
+highlight all USC 10 14 fill_color=colorreal
+highlight all USC 14 17 fill_color=coloratl.
+highlight all USC 17 20 fill_color=colorliverp
+highlight all USC 20 22 fill_color=colorajax
+highlight all USC 22 24 fill_color=colorjuve
+highlight all USC 24 25 fill_color=colorunited
+highlight all USC 25 26 fill_color=colorbayern
+highlight all USC 26 26 fill_color=colorinter
+highlight all UEL 0 3 fill_color=coloratl.
+highlight all UEL 3 6 fill_color=colorliverp
+highlight all UEL 6 9 fill_color=colorinter
+highlight all UEL 9 12 fill_color=colorjuve
+highlight all UEL 12 14 fill_color=colorreal
+highlight all UEL 14 15 fill_color=colorajax
+highlight all UEL 15 16 fill_color=colorunited
+highlight all UEL 16 17 fill_color=colorbayern
+highlight all UEL 17 17 fill_color=colorbarca
+highlight all IC 0 3 fill_color=colormilan
+highlight all IC 3 6 fill_color=colorreal
+highlight all IC 6 8 fill_color=colorinter
+highlight all IC 8 10 fill_color=colorajax
+highlight all IC 10 12 fill_color=colorjuve
+highlight all IC 12 14 fill_color=colorbayern
+highlight all IC 14 15 fill_color=coloratl.
+highlight all IC 15 16 fill_color=colorunited
+highlight all IC 16 16 fill_color=colorbarca
+highlight all IC 16 16 fill_color=colorliverp
+highlight all CWC 0 4 fill_color=colorbarca
+highlight all CWC 4 6 fill_color=colormilan
+highlight all CWC 6 7 fill_color=coloratl.
+highlight all CWC 7 8 fill_color=colorajax
+highlight all CWC 8 9 fill_color=colorunited
+highlight all CWC 9 10 fill_color=colorjuve
+highlight all CWC 10 11 fill_color=colorbayern
+highlight all CWC 11 11 fill_color=colorliverp
+highlight all CWC 11 11 fill_color=colorinter
+highlight all UIC 0 1 fill_color=colorjuve
+highlight all UIC 1 1 fill_color=coloratl.
+highlight all UIC 1 1 fill_color=colorbarca
+highlight all UIC 1 1 fill_color=colorliverp
+highlight all UIC 1 1 fill_color=colorinter
+highlight all UIC 1 1 fill_color=colorajax
+highlight all UIC 1 1 fill_color=colorunited
+highlight all UIC 1 1 fill_color=colorbayern
+karyotype chr - Real Real 0 22 colorreal
+segmentlabel Real 0 22 Real
+karyotype chr - Milan Milan 0 17 colormilan
+segmentlabel Milan 0 17 Milan
+karyotype chr - Barca Barca 0 14 colorbarca
+segmentlabel Barca 0 14 Barca
+karyotype chr - Liverp Liverp 0 11 colorliverp
+segmentlabel Liverp 0 11 Liverp
+karyotype chr - Juve Juve 0 11 colorjuve
+segmentlabel Juve 0 11 Juve
+karyotype chr - Bayern Bayern 0 10 colorbayern
+segmentlabel Bayern 0 10 Bayern
+karyotype chr - Ajax Ajax 0 10 colorajax
+segmentlabel Ajax 0 10 Ajax
+karyotype chr - Atl. Atl. 0 8 coloratl.
+segmentlabel Atl. 0 8 Atl.
+karyotype chr - Inter Inter 0 8 colorinter
+segmentlabel Inter 0 8 Inter
+karyotype chr - United United 0 7 colorunited
+segmentlabel United 0 7 United
+karyotype chr - UCL UCL 0 47 colorucl
+segmentlabel UCL 0 47 UCL
+karyotype chr - USC USC 0 26 colorusc
+segmentlabel USC 0 26 USC
+karyotype chr - UEL UEL 0 17 coloruel
+segmentlabel UEL 0 17 UEL
+karyotype chr - IC IC 0 16 coloric
+segmentlabel IC 0 16 IC
+karyotype chr - CWC CWC 0 11 colorcwc
+segmentlabel CWC 0 11 CWC
+karyotype chr - UIC UIC 0 1 coloruic
+segmentlabel UIC 0 1 UIC
+chromosomes_scale = Real:1.0000,Milan:1.0000,Barca:1.0000,Liverp:1.0000,Juve:1.0000,Bayern:1.0000,Ajax:1.0000,Atl.:1.0000,Inter:1.0000,United:1.0000,UCL:1.0000,USC:1.0000,UEL:1.0000,IC:1.0000,CWC:1.0000,UIC:1.0000
+loop Real row
+loop Real col
+loop Milan row
+loop Milan col
+loop Barca row
+loop Barca col
+loop Liverp row
+loop Liverp col
+loop Juve row
+loop Juve col
+loop Bayern row
+loop Bayern col
+loop Ajax row
+loop Ajax col
+loop Atl. row
+loop Atl. col
+loop Inter row
+loop Inter col
+loop United row
+loop United col
+loop UCL row
+loop UCL col
+loop USC row
+loop USC col
+loop UEL row
+loop UEL col
+loop IC row
+loop IC col
+loop CWC row
+loop CWC col
+loop UIC row
+loop UIC col
+link cell_0000 Real 9 22 color=colorreal_a1,z=100
+link cell_0000 UCL 34 47 color=colorreal_a1,z=100
+colribboncap UCL 34 47 fill_color=colorreal
+rowribboncap Real 9 22 fill_color=colorucl
+link cell_0001 Real 3 5 color=colorreal_a1,z=15
+link cell_0001 UEL 15 17 color=colorreal_a1,z=15
+colribboncap UEL 15 17 fill_color=colorreal
+rowribboncap Real 3 5 fill_color=coloruel
+link cell_0002 Real 5 9 color=colorreal_a1,z=31
+link cell_0002 USC 22 26 color=colorreal_a1,z=31
+colribboncap USC 22 26 fill_color=colorreal
+rowribboncap Real 5 9 fill_color=colorusc
+link cell_0003 Real 0 3 color=colorreal_a1,z=23
+link cell_0003 IC 13 16 color=colorreal_a1,z=23
+colribboncap IC 13 16 fill_color=colorreal
+rowribboncap Real 0 3 fill_color=coloric
+link cell_0004 Milan 10 17 color=colormilan_a1,z=54
+link cell_0004 UCL 27 34 color=colormilan_a1,z=54
+colribboncap UCL 27 34 fill_color=colormilan
+rowribboncap Milan 10 17 fill_color=colorucl
+link cell_0005 Milan 0 2 color=colormilan_a1,z=15
+link cell_0005 CWC 9 11 color=colormilan_a1,z=15
+colribboncap CWC 9 11 fill_color=colormilan
+rowribboncap Milan 0 2 fill_color=colorcwc
+link cell_0006 Milan 5 10 color=colormilan_a1,z=38
+link cell_0006 USC 17 22 color=colormilan_a1,z=38
+colribboncap USC 17 22 fill_color=colormilan
+rowribboncap Milan 5 10 fill_color=colorusc
+link cell_0007 Milan 2 5 color=colormilan_a1,z=23
+link cell_0007 IC 10 13 color=colormilan_a1,z=23
+colribboncap IC 10 13 fill_color=colormilan
+rowribboncap Milan 2 5 fill_color=coloric
+link cell_0008 Barca 9 14 color=colorbarca_a1,z=38
+link cell_0008 UCL 22 27 color=colorbarca_a1,z=38
+colribboncap UCL 22 27 fill_color=colorbarca
+rowribboncap Barca 9 14 fill_color=colorucl
+link cell_0009 Barca 0 4 color=colorbarca_a1,z=31
+link cell_0009 CWC 5 9 color=colorbarca_a1,z=31
+colribboncap CWC 5 9 fill_color=colorbarca
+rowribboncap Barca 0 4 fill_color=colorcwc
+link cell_0010 Barca 4 9 color=colorbarca_a1,z=38
+link cell_0010 USC 12 17 color=colorbarca_a1,z=38
+colribboncap USC 12 17 fill_color=colorbarca
+rowribboncap Barca 4 9 fill_color=colorusc
+link cell_0011 Liverp 6 11 color=colorliverp_a1,z=38
+link cell_0011 UCL 17 22 color=colorliverp_a1,z=38
+colribboncap UCL 17 22 fill_color=colorliverp
+rowribboncap Liverp 6 11 fill_color=colorucl
+link cell_0012 Liverp 0 3 color=colorliverp_a1,z=23
+link cell_0012 UEL 12 15 color=colorliverp_a1,z=23
+colribboncap UEL 12 15 fill_color=colorliverp
+rowribboncap Liverp 0 3 fill_color=coloruel
+link cell_0013 Liverp 3 6 color=colorliverp_a1,z=23
+link cell_0013 USC 9 12 color=colorliverp_a1,z=23
+colribboncap USC 9 12 fill_color=colorliverp
+rowribboncap Liverp 3 6 fill_color=colorusc
+link cell_0014 Juve 9 11 color=colorjuve_a1,z=15
+link cell_0014 UCL 15 17 color=colorjuve_a1,z=15
+colribboncap UCL 15 17 fill_color=colorjuve
+rowribboncap Juve 9 11 fill_color=colorucl
+link cell_0015 Juve 4 7 color=colorjuve_a1,z=23
+link cell_0015 UEL 9 12 color=colorjuve_a1,z=23
+colribboncap UEL 9 12 fill_color=colorjuve
+rowribboncap Juve 4 7 fill_color=coloruel
+link cell_0016 Juve 1 2 color=colorjuve_a1,z=8
+link cell_0016 CWC 4 5 color=colorjuve_a1,z=8
+colribboncap CWC 4 5 fill_color=colorjuve
+rowribboncap Juve 1 2 fill_color=colorcwc
+link cell_0017 Juve 0 1 color=colorjuve_a1,z=8
+link cell_0017 UIC 0 1 color=colorjuve_a1,z=8
+colribboncap UIC 0 1 fill_color=colorjuve
+rowribboncap Juve 0 1 fill_color=coloruic
+link cell_0018 Juve 7 9 color=colorjuve_a1,z=15
+link cell_0018 USC 7 9 color=colorjuve_a1,z=15
+colribboncap USC 7 9 fill_color=colorjuve
+rowribboncap Juve 7 9 fill_color=colorusc
+link cell_0019 Juve 2 4 color=colorjuve_a1,z=15
+link cell_0019 IC 8 10 color=colorjuve_a1,z=15
+colribboncap IC 8 10 fill_color=colorjuve
+rowribboncap Juve 2 4 fill_color=coloric
+link cell_0020 Bayern 5 10 color=colorbayern_a1,z=38
+link cell_0020 UCL 10 15 color=colorbayern_a1,z=38
+colribboncap UCL 10 15 fill_color=colorbayern
+rowribboncap Bayern 5 10 fill_color=colorucl
+link cell_0021 Bayern 3 4 color=colorbayern_a1,z=8
+link cell_0021 UEL 8 9 color=colorbayern_a1,z=8
+colribboncap UEL 8 9 fill_color=colorbayern
+rowribboncap Bayern 3 4 fill_color=coloruel
+link cell_0022 Bayern 0 1 color=colorbayern_a1,z=8
+link cell_0022 CWC 3 4 color=colorbayern_a1,z=8
+colribboncap CWC 3 4 fill_color=colorbayern
+rowribboncap Bayern 0 1 fill_color=colorcwc
+link cell_0023 Bayern 4 5 color=colorbayern_a1,z=8
+link cell_0023 USC 6 7 color=colorbayern_a1,z=8
+colribboncap USC 6 7 fill_color=colorbayern
+rowribboncap Bayern 4 5 fill_color=colorusc
+link cell_0024 Bayern 1 3 color=colorbayern_a1,z=15
+link cell_0024 IC 6 8 color=colorbayern_a1,z=15
+colribboncap IC 6 8 fill_color=colorbayern
+rowribboncap Bayern 1 3 fill_color=coloric
+link cell_0025 Ajax 6 10 color=colorajax_a1,z=31
+link cell_0025 UCL 6 10 color=colorajax_a1,z=31
+colribboncap UCL 6 10 fill_color=colorajax
+rowribboncap Ajax 6 10 fill_color=colorucl
+link cell_0026 Ajax 3 4 color=colorajax_a1,z=8
+link cell_0026 UEL 7 8 color=colorajax_a1,z=8
+colribboncap UEL 7 8 fill_color=colorajax
+rowribboncap Ajax 3 4 fill_color=coloruel
+link cell_0027 Ajax 0 1 color=colorajax_a1,z=8
+link cell_0027 CWC 2 3 color=colorajax_a1,z=8
+colribboncap CWC 2 3 fill_color=colorajax
+rowribboncap Ajax 0 1 fill_color=colorcwc
+link cell_0028 Ajax 4 6 color=colorajax_a1,z=15
+link cell_0028 USC 4 6 color=colorajax_a1,z=15
+colribboncap USC 4 6 fill_color=colorajax
+rowribboncap Ajax 4 6 fill_color=colorusc
+link cell_0029 Ajax 1 3 color=colorajax_a1,z=15
+link cell_0029 IC 4 6 color=colorajax_a1,z=15
+colribboncap IC 4 6 fill_color=colorajax
+rowribboncap Ajax 1 3 fill_color=coloric
+link cell_0030 Atl. 2 5 color=coloratl._a1,z=23
+link cell_0030 UEL 4 7 color=coloratl._a1,z=23
+colribboncap UEL 4 7 fill_color=coloratl.
+rowribboncap Atl. 2 5 fill_color=coloruel
+link cell_0031 Atl. 0 1 color=coloratl._a1,z=8
+link cell_0031 CWC 1 2 color=coloratl._a1,z=8
+colribboncap CWC 1 2 fill_color=coloratl.
+rowribboncap Atl. 0 1 fill_color=colorcwc
+link cell_0032 Atl. 5 8 color=coloratl._a1,z=23
+link cell_0032 USC 1 4 color=coloratl._a1,z=23
+colribboncap USC 1 4 fill_color=coloratl.
+rowribboncap Atl. 5 8 fill_color=colorusc
+link cell_0033 Atl. 1 2 color=coloratl._a1,z=8
+link cell_0033 IC 3 4 color=coloratl._a1,z=8
+colribboncap IC 3 4 fill_color=coloratl.
+rowribboncap Atl. 1 2 fill_color=coloric
+link cell_0034 Inter 5 8 color=colorinter_a1,z=23
+link cell_0034 UCL 3 6 color=colorinter_a1,z=23
+colribboncap UCL 3 6 fill_color=colorinter
+rowribboncap Inter 5 8 fill_color=colorucl
+link cell_0035 Inter 2 5 color=colorinter_a1,z=23
+link cell_0035 UEL 1 4 color=colorinter_a1,z=23
+colribboncap UEL 1 4 fill_color=colorinter
+rowribboncap Inter 2 5 fill_color=coloruel
+link cell_0036 Inter 0 2 color=colorinter_a1,z=15
+link cell_0036 IC 1 3 color=colorinter_a1,z=15
+colribboncap IC 1 3 fill_color=colorinter
+rowribboncap Inter 0 2 fill_color=coloric
+link cell_0037 United 4 7 color=colorunited_a1,z=23
+link cell_0037 UCL 0 3 color=colorunited_a1,z=23
+colribboncap UCL 0 3 fill_color=colorunited
+rowribboncap United 4 7 fill_color=colorucl
+link cell_0038 United 2 3 color=colorunited_a1,z=8
+link cell_0038 UEL 0 1 color=colorunited_a1,z=8
+colribboncap UEL 0 1 fill_color=colorunited
+rowribboncap United 2 3 fill_color=coloruel
+link cell_0039 United 0 1 color=colorunited_a1,z=8
+link cell_0039 CWC 0 1 color=colorunited_a1,z=8
+colribboncap CWC 0 1 fill_color=colorunited
+rowribboncap United 0 1 fill_color=colorcwc
+link cell_0040 United 3 4 color=colorunited_a1,z=8
+link cell_0040 USC 0 1 color=colorunited_a1,z=8
+colribboncap USC 0 1 fill_color=colorunited
+rowribboncap United 3 4 fill_color=colorusc
+link cell_0041 United 1 2 color=colorunited_a1,z=8
+link cell_0041 IC 0 1 color=colorunited_a1,z=8
+colribboncap IC 0 1 fill_color=colorunited
+rowribboncap United 1 2 fill_color=coloric
