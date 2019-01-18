@@ -1,7 +1,11 @@
 <!doctype html>
 <html>
 <head>
-    <style>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+  <script src="https://unpkg.com/d3-simple-slider@0.1.2/build/d3-simple-slider.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <style>
         .bar {
             fill: steelblue;
         }
@@ -18,10 +22,39 @@
             fill: black;
         }
         
+        .bar5{
+            fill: orange;
+        }
+        
         #svg1, #svg2 {
             width: 600px;
             height: 600px;
         }
+          
+          body {
+              font-family: 'Open Sans', sans-serif;
+          }
+        
+        #plaatsSVG {
+            width: 1200px;
+            margin: 0 auto;
+            height: 500;
+        
+        }
+          
+          .middle{
+              margin: 0 auto;
+              width: 350px;
+              text-align: center;
+          }
+          
+          .value {
+              margin: 20px 0 0 0;
+          }
+          
+          h1 {
+              text-align: center;
+          }
 
         .line {
   fill: none;
@@ -29,10 +62,6 @@
   stroke-width: 2px;
 }
     </style>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
-  <script src="https://unpkg.com/d3-simple-slider@0.1.2/build/d3-simple-slider.js"></script>
-  
 <body>
 <!--<svg width="600" height="400"></svg>-->
 
@@ -41,11 +70,14 @@
 <div id="svg2"></div>
 -->
 
+<h1>Expected evolution of the population of Brussels (with growth)</h1>
+<div id="plaatsSVG"></div>
 
-<p id="value">Move me</p>
+<div class="middle">
+<p class="value">Move me</p>
   <div id="value"></div>
-  <a id="setValue" href="#">Set value</a>
-  <a id="changeWidth" href="#">Change width</a>
+  </div>
+  
   
   
   
@@ -54,19 +86,19 @@
 <script>
     
     // Set the dimensions of the canvas / graph
-    var	margin = {top: 30, right: 20, bottom: 30, left: 50},
+    var	margin = {top: 100, right: 20, bottom: 30, left: 70},
 	width = 600 - margin.left - margin.right,
 	height = 400 - margin.top - margin.bottom;
     
     // Adds the svg canvas
-    var	chart1 = d3.select("body")
+    var	chart1 = d3.select("#plaatsSVG")
 	.append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
 	.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
-    var	chart2 = d3.select("body")
+    var	chart2 = d3.select("#plaatsSVG")
 	.append("svg")
 		.attr("width", width + margin.left + margin.right)
 		.attr("height", height + margin.top + margin.bottom)
@@ -79,14 +111,7 @@
 //        width = svg.attr("width") - margin,
 //        height = svg.attr("height") - margin
 
-    chart1.append("text")
-       .attr("transform", "translate(100,0)")
-       .attr("x", 50)
-       .attr("y", 50)
-       .attr("font-size", "24px")
-       .text("Bevolking van Belgie")
 
-    // Adds the svg canvas
     refresh();
     
        function refresh() {
@@ -113,70 +138,59 @@
         if (error) {
             throw error;
         }
+        
+        console.log(sliderVals)
+        if(sliderVals() == undefined){
+            xScale.domain(data.map(function(d) { return d.year; }));
+        yScale.domain([0, d3.max(data, function(d) { return d.population; })]);
+        yScale2.domain([0, d3.max(data, function(d) { return d.geboorte; })]);
+        yScale3.domain([0, d3.max(data, function(d) { return d.sterfte; })]);
+        } else {
         xScale.domain(data.map(function(d) { return d.year; }));
-        yScale.domain([0, d3.max(data, function(d) { return d.population*sliderVals(); ; })]);
-        yScale2.domain([0, d3.max(data, function(d) { return d.geboorte*sliderVals(); ; })]);
-        yScale3.domain([0, d3.max(data, function(d) { return d.sterfte*sliderVals(); ; })]);
+        yScale.domain([0, d3.max(data, function(d) { return d.population*sliderVals(); })]);
+        yScale2.domain([0, d3.max(data, function(d) { return d.geboorte*sliderVals(); })]);
+        yScale3.domain([0, d3.max(data, function(d) { return d.sterfte*sliderVals(); })]);
+        }
+        
 
+        
+       
+
+        
+        chart1.append("text")
+       .attr("transform", "translate(100,0)")
+       .attr("x", 50)
+       .attr("y", - 50)
+       .attr("font-size", "24px")
+       .text("Geboorte/sterftecijfer")
+        
         //maak bottom
         chart1.append("g")
          .attr("transform", "translate(0," + height + ")")
          .call(d3.axisBottom(xScale))
          .append("text")
          .attr("y", height - 250)
-         .attr("x", width - 100)
+         .attr("x", width +13)
          .attr("text-anchor", "end")
-         .attr("stroke", "black")
+         .attr("fill", "black")
          .text("Year");
         
-         chart2.append("g")
-         .attr("transform", "translate(0," + height + ")")
-         .call(d3.axisBottom(xScale))
-         .append("text")
-         .attr("y", height - 250)
-         .attr("x", width - 100)
-         .attr("text-anchor", "end")
-         .attr("stroke", "black")
-         .text("Year");
+        
 
         chart1.append("g")
          .call(d3.axisLeft(yScale2).tickFormat(function(d){
-            console.log(d);
+           
              return  d;
          })
          .ticks(20))
          .append("text")
          .attr("transform", "rotate(-90)")
-         .attr("y", 6)
+         .attr("y", 10)
          .attr("dy", "-5.1em")
          .attr("text-anchor", "end")
-         .attr("stroke", "black")
+         .attr("fill", "black")
          .text("Aantal mensen");
         
-        chart2.append("g")
-         .call(d3.axisLeft(yScale).tickFormat(function(d){
-            console.log(d);
-             return  d;
-         })
-         .ticks(20))
-         .append("text")
-         .attr("transform", "rotate(-90)")
-         .attr("y", 6)
-         .attr("dy", "-5.1em")
-         .attr("text-anchor", "end")
-         .attr("stroke", "black")
-         .text("Aantal mensen");
-
-        chart2.selectAll(".bar")
-         .data(data)
-         .enter().append("rect")
-         .attr("class", "bar")
-         .attr("x", function(d) { return xScale(d.year)+xScale.bandwidth()/3*2; })
-         .attr("y", function(d) { return yScale(d.population); })
-        // .attr("y", function(d) { return yScale(d.geboorte); })
-         .attr("width", xScale.bandwidth()/2)
-         .attr("height", function(d) { return height - yScale(d.population); });
-
          chart1.selectAll(".bar2")
          .data(data)
          .enter().append("rect")
@@ -195,20 +209,73 @@
          .attr("width", xScale.bandwidth()/3)
          .attr("height", function(d) { return height - yScale2(d.sterfte); });
 
-         chart1.selectAll(".bar4")
+//         chart1.append("path")
+//    .datum(data) // 10. Binds data to the line 
+//    .attr("class", "line") // Assign a class for styling 
+//    .attr("d", line); // 11. Calls the line generator 
+
+            
+        
+         chart2.append("text")
+       .attr("transform", "translate(100,0)")
+       .attr("x", 50)
+       .attr("y", - 50)
+       .attr("font-size", "24px")
+       .text("Populatie van Belgie")
+        
+         chart2.append("g")
+         .attr("transform", "translate(0," + height + ")")
+         .call(d3.axisBottom(xScale))
+         .append("text")
+         .attr("y", height - 250)
+         .attr("x", width +13)
+         .attr("text-anchor", "end")
+         .attr("fill", "black")
+         .text("Year");
+        
+        chart2.append("g")
+         .call(d3.axisLeft(yScale).tickFormat(function(d){
+            
+             return  d;
+         })
+         .ticks(20))
+         .append("text")
+         .attr("transform", "rotate(-90)")
+         .attr("y", 6)
+         .attr("dy", "-5.1em")
+         .attr("text-anchor", "end")
+         .attr("fill", "black")
+         .text("Aantal mensen");
+
+        chart2.selectAll(".bar")
+         .data(data)
+         .enter().append("rect")
+         .attr("class", "bar")
+         .attr("x", function(d) { return xScale(d.year)+xScale.bandwidth()/3; })
+         .attr("y", function(d) { return yScale(d.population); })
+        // .attr("y", function(d) { return yScale(d.geboorte); })
+         .attr("width", xScale.bandwidth()/3)
+         .attr("height", function(d) { return height - yScale(d.population); });
+
+        chart2.selectAll(".bar4")
          .data(data)
          .enter().append("rect")
          .attr("class", "bar4")
-         .attr("x", function(d) { return xScale(d.year) })
-         .attr("y", function(d) { return yScale2(d.immigration); })
+         .attr("x", function(d) { return xScale(d.year)+xScale.bandwidth()/3*2 })
+         .attr("y", function(d) { return yScale(d.immigration); })
          .attr("width", xScale.bandwidth()/3)
-         .attr("height", function(d) { return height - yScale2(d.immigration); });
+         .attr("height", function(d) { return height - yScale(d.immigration); });
+        
+        chart2.selectAll(".bar5")
+         .data(data)
+         .enter().append("rect")
+         .attr("class", "bar5")
+         .attr("x", function(d) { return xScale(d.year) })
+         .attr("y", function(d) { return yScale(d.emigration); })
+         .attr("width", xScale.bandwidth()/3)
+         .attr("height", function(d) { return height - yScale(d.emigration); });
 
-         chart1.append("path")
-    .datum(data) // 10. Binds data to the line 
-    .attr("class", "line") // Assign a class for styling 
-    .attr("d", line); // 11. Calls the line generator 
-
+        
 
     });
 
@@ -244,10 +311,7 @@
 
     d.call(slider);
 
-    d3.select("a#setValue").on("click", () => slider.value(1));
-
-
-    d3.select("a#changeWidth").on("click", () => d.call(slider.width(Math.floor(Math.random() * 500) + 200)));
+   
   </script>
   
   
