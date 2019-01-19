@@ -1,0 +1,60 @@
+ .bar {
+     fill: #475F68;
+ }
+ 
+ .bar2 {
+     fill: #EAB453;
+ }
+ 
+ .bar3 {
+     fill: #E74E4D;
+ }
+ 
+ .bar4 {
+     fill: black;
+ }
+ 
+ .bar5 {
+     fill: orange;
+ }
+ 
+ #svg1,
+ #svg2 {
+     width: 600px;
+     height: 600px;
+ }
+ 
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ #plaatsSVG {
+     width: 1200px;
+     margin: 0 auto;
+     
+ }
+ 
+ .middle {
+     margin: 0 auto;
+     width: 350px;
+     text-align: center;
+ }
+ 
+ .value {
+     margin: 20px 0 0 0;
+ }
+ 
+ h1 {
+     text-align: center;
+ }
+ 
+ svg {
+     display: block;
+     float: left;
+ }
+ 
+ .line {
+     fill: none;
+     stroke: steelblue;
+     stroke-width: 2px;
+ }
